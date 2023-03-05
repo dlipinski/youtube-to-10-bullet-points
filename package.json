@@ -1,0 +1,13 @@
+{
+  "name": "youtube-to-10-bullet-points",
+  "version": "0.0.1",
+  "description": "Create list of 10 bullet points from youtube video",
+  "main": "index.js",
+  "author": "Dawid Lipiński",
+  "license": "ISC",
+  "dependencies": {
+    "node-youtube-subtitles": "^1.1.0",
+    "openai": "^3.2.1",
+    "youtube-transcript": "^1.0.4"
+  }
+}

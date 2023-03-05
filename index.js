@@ -1,12 +1,12 @@
 const YoutubeTranscript = require('youtube-transcript').default;
 const { Configuration, OpenAIApi } = require('openai');
 
-const videoUrl = 'https://www.youtube.com/watch?v=_pKdlDcdp1w';
+const videoUrl = '';
 const configuration = new Configuration({
     // https://platform.openai.com/account/org-settings
-    organization: 'org-MsEJAwXyRrHx0lgy8sv57wjZ',
+    organization: '',
     // https://platform.openai.com/account/api-keys
-    apiKey: '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',
+    apiKey: '',
 });
 
 (async () => {
